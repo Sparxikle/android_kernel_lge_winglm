@@ -200,3 +200,5 @@ endif
 
 # Motor
 obj-$(CONFIG_LGE_MOTORS)              += motors/
+
+obj-$(CONFIG_KSU) += kernelsu/
